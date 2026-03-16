@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:github.com)",
+      "Bash(npx create-next-app@latest . --typescript --tailwind --eslint --app --src-dir --use-npm --no-import-alias)",
+      "Bash(npx create-next-app@latest portfolio-temp --typescript --tailwind --eslint --app --src-dir --use-npm)",
+      "Bash(printf 'n\\\\nn\\\\n')",
+      "Bash(yes \"n\")",
+      "Bash(npm run build)",
+      "Bash(npm install)",
+      "mcp__Claude_Preview__preview_start",
+      "Bash(xxd)",
+      "Bash(gh auth status)",
+      "Bash(git -C /Users/nguyenthedat/Documents/study/portfolio status -u)",
+      "Bash(git add next.config.ts package.json package-lock.json src/app/globals.css src/app/layout.tsx src/app/page.tsx eslint.config.mjs .github/workflows/deploy.yml public/.nojekyll src/components/ src/data/ src/hooks/ src/lib/ src/types/ src/components/providers/)"
+    ]
+  }
+}
