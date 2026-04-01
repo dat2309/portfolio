@@ -3,7 +3,7 @@ import type { Experience } from "@/types";
 export const experiences: Experience[] = [
   {
     id: "1",
-    company: "OVERATE-VNTECH",
+    company: "Ohq",
     role: "Developer (ReactJS | React Native | NestJS)",
     startDate: "Sep 2024",
     endDate: null,
@@ -18,7 +18,7 @@ export const experiences: Experience[] = [
   },
   {
     id: "2",
-    company: "OVERATE-VNTECH",
+    company: "Ohq",
     role: "Android Developer",
     startDate: "Sep 2022",
     endDate: "Sep 2024",

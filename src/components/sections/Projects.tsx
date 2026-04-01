@@ -101,9 +101,7 @@ export function Projects() {
             {filtered.map((project, idx) => (
               <TiltCard
                 key={project.id}
-                className={`group relative overflow-hidden rounded-xl border border-white/5 bg-bg-dark-secondary transition-all duration-300 hover:border-primary/20 hover:shadow-xl hover:shadow-primary/5 ${
-                  project.featured ? "md:col-span-2 lg:col-span-2" : ""
-                }`}
+                className="group relative overflow-hidden rounded-xl border border-white/5 bg-bg-dark-secondary transition-all duration-300 hover:border-primary/20 hover:shadow-xl hover:shadow-primary/5"
               >
                 <motion.div
                   variants={fadeInUp}
