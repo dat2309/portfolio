@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { motion, useInView, useSpring, useTransform } from "motion/react";
 import { useRef, useEffect } from "react";
 import { SectionHeading } from "@/components/ui/SectionHeading";
@@ -61,11 +62,15 @@ export function About() {
           <motion.div variants={slideInLeft} className="flex justify-center lg:justify-start">
             <div className="relative">
               <div className="h-80 w-80 rounded-2xl bg-gradient-to-br from-primary via-secondary to-accent p-[2px]">
-                <div className="flex h-full w-full items-center justify-center rounded-2xl bg-bg-dark-secondary">
-                  <div className="text-center text-text-dark-secondary">
-                    <div className="text-6xl mb-2">👨‍💻</div>
-                    <p className="text-sm">Your Photo Here</p>
-                  </div>
+                <div className="relative h-full w-full overflow-hidden rounded-2xl">
+                  <Image
+                    src="/images/avt.jpg"
+                    alt={profile.name}
+                    fill
+                    className="object-cover"
+                    sizes="320px"
+                    priority
+                  />
                 </div>
               </div>
               {/* Decorative elements */}
